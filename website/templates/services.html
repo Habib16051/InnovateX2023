@@ -1,0 +1,119 @@
+{% extends 'base.html' %}<br />
+{% block title %}Services{% endblock title%} <br />
+
+{% block header %}{% endblock header %} <br />
+{% block content %}This Services!
+<!-- ======= Services Section ======= -->
+<section id="services" class="services section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Services</h2>
+      <p>
+        Empowering your career growth, we offer a range of essential services.
+        Get noticed with stunning Website Design for Business or Personal
+        Purposes. Stand out with professionally crafted Document Writing for
+        resumes, cover letters, SOPs, and LORs etc. Boost your online presence
+        through optimized Linkedin Profiles. Navigate job hunting with
+        personalized Job Search Strategies. And gain confidence with
+        Communication Skills coaching for successful interviews. Unleash your
+        potential today with our expert guidance.
+      </p>
+    </div>
+
+    <div class="row">
+      <div
+        class="col-xl-3 col-md-6 d-flex align-items-stretch"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
+        <div class="icon-box">
+          <div class="icon"><i class="bx bxl-dribbble"></i></div>
+          <h4>
+            <a href="{% url 'home' %}">Website Design</a>
+          </h4>
+          <p>
+            In the 21st century, people love to showcase their talents,
+            activities, and resources online. Businessmen conduct their
+            businesses using E-commerce platforms, while travelers and food
+            bloggers share their adventures and precious moments through their
+            blog websites. Some individuals utilize portfolios as their virtual
+            resumes. We will make such types of websites for you.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+      >
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-file"></i></div>
+          <h4><a href="">Document Writing</a></h4>
+          <p>
+            We are offering premium quality content about how to write a Perfect
+            CV/Resume, Cover Letter, Lettr of Recommendation, Statement of
+            Purpose for the Job Seekrs and those who are willing to go abroad
+            for higher study.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+      >
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-tachometer"></i></div>
+          <h4><a href="">Linkedin Profile Optimization</a></h4>
+          <p>
+            Linkedin Profile is becoming the next level of resource to make
+            networking and showcase your talent. It will help you to land your
+            dream job anywhere in the world. We will make such a profile for you
+            to level up your online presence.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+        data-aos="zoom-in"
+        data-aos-delay="400"
+      >
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-layer"></i></div>
+          <h4>
+            <a href="">Communication Skills for any Interview</a>
+          </h4>
+          <p>
+            In any kind of interview, it might be for job related or abroad
+            university admission interview, the number one thing the interview
+            authority notice that is the candidate communication skills. We will
+            teach you how present yourself in a most comfortable way during the
+            interview.
+          </p>
+        </div>
+      </div>
+      <div
+        class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+        data-aos="zoom-in"
+        data-aos-delay="400"
+      >
+        <div class="icon-box">
+          <div class="icon"><i class="bx bx-layer"></i></div>
+          <h4>
+            <a href="">Job Search Strategy</a>
+          </h4>
+          <p>
+            Ah! Job searching is one of the hardest part for any candidate. We
+            will help you how to find your job and how to target the company.
+          </p>
+        </div>
+      </div>
+    </div>
+    {% block website_design %}{% endblock website_design %}
+  </div>
+</section>
+<!-- End Services Section -->
+{%endblock content %} <br />
